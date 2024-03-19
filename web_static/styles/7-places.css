@@ -1,22 +1,24 @@
+.places {
+  /* places */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .places h1 {
-    /* Title styles */
-    font-size: 30px;
-    text-align: left; 
-    margin-top: 0; 
-  }
-  
-  .places article {
-    /* Styles for each place listing */
-    width: 390px;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #FF5A5F;
-    border-radius: 4px;
-    display: flex;
-  }
-  
-  .places article h2 {
-    /* Styles for the place name */
-    font-size: 30px;
-    text-align: center;
-  }
+  font-size: 30px;
+  text-align: left;
+}
+
+.places article {
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #FF5A5F;
+  border-radius: 4px;
+}
+
+.places h2 {
+  font-size: 30px;
+  text-align: center;
+}

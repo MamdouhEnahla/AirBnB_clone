@@ -1,8 +1,16 @@
+.places {
+	/* Styles for the container */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
 .places h1 {
 	/* Title styles */
 	font-size: 30px;
 	text-align: left; 
-	margin-top: 0; 
 }
   
 .places article {
